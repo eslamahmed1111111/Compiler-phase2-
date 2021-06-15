@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="phase 2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/phase 2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/phase 2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/BFS.h" />
+		<Unit filename="include/CFG_Parser.h" />
+		<Unit filename="include/DFA_State.h" />
+		<Unit filename="include/Edge.h" />
+		<Unit filename="include/Generate_LL_Grammar.h" />
+		<Unit filename="include/GrammerParser.h" />
+		<Unit filename="include/Graph.h" />
+		<Unit filename="include/Lexical_Analyzer.h" />
+		<Unit filename="include/Matcher.h" />
+		<Unit filename="include/Minimization.h" />
+		<Unit filename="include/NFA_To_DFA.h" />
+		<Unit filename="include/Parsing_Table.h" />
+		<Unit filename="include/Production_Rule.h" />
+		<Unit filename="include/Rule.h" />
+		<Unit filename="include/State.h" />
+		<Unit filename="include/StringHelp.h" />
+		<Unit filename="include/Symbol.h" />
+		<Unit filename="include/Tokens.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/BFS.cpp" />
+		<Unit filename="src/CFG_Parser.cpp" />
+		<Unit filename="src/DFA_State.cpp" />
+		<Unit filename="src/Generate_LL_Grammar.cpp" />
+		<Unit filename="src/GrammerParser.cpp" />
+		<Unit filename="src/Graph.cpp" />
+		<Unit filename="src/Lexical_Analyzer.cpp" />
+		<Unit filename="src/Matcher.cpp" />
+		<Unit filename="src/Minimization.cpp" />
+		<Unit filename="src/NFA_To_DFA.cpp" />
+		<Unit filename="src/Parsing_Table.cpp" />
+		<Unit filename="src/Production_Rule.cpp" />
+		<Unit filename="src/Rule.cpp" />
+		<Unit filename="src/Symbol.cpp" />
+		<Unit filename="src/Tokens.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,88 @@
+************* Lexical Analyzer *****************
+************* Predictive Parser ****************
+rule name METHOD_BODY
+ rule productions 
+production 0-STATEMENT_LIST,1 - 
+
+rule name STATEMENT_LIST
+ rule productions 
+production 0-STATEMENT,1 - 
+production 1-STATEMENT_LIST,1 - STATEMENT,1 - 
+
+rule name STATEMENT
+ rule productions 
+production 0-DECLARATION,1 - 
+production 1-IF,1 - 
+production 2-WHILE,1 - 
+production 3-ASSIGNMENT,1 - 
+
+rule name DECLARATION
+ rule productions 
+production 0-PRIMITIVE_TYPE,1 - id,0 - ;,0 - 
+
+rule name IF
+ rule productions 
+production 0-if,0 - (,0 - EXPRESSION,1 - ),0 - {,0 - STATEMENT,1 - },0 - else,0 - {,0 - STATEMENT,1 - },0 - 
+
+rule name WHILE
+ rule productions 
+production 0-while,0 - (,0 - EXPRESSION,1 - ),0 - {,0 - STATEMENT,1 - },0 - 
+
+rule name ASSIGNMENT
+ rule productions 
+production 0-id,0 - assign,0 - EXPRESSION,1 - ;,0 - 
+
+rule name PRIMITIVE_TYPE
+ rule productions 
+production 0-int,0 - 
+production 1-float,0 - 
+
+rule name EXPRESSION
+ rule productions 
+production 0-SIMPLE_EXPRESSION,1 - 
+production 1-SIMPLE_EXPRESSION,1 - relop,0 - SIMPLE_EXPRESSION,1 - 
+
+rule name SIMPLE_EXPRESSION
+ rule productions 
+production 0-TERM,1 - 
+production 1-SIGN,1 - TERM,1 - 
+production 2-SIMPLE_EXPRESSION,1 - addop,0 - TERM,1 - 
+
+rule name TERM
+ rule productions 
+production 0-FACTOR,1 - 
+production 1-TERM,1 - mulop,0 - FACTOR,1 - 
+
+rule name SIGN
+ rule productions 
+production 0-+,0 - 
+production 1--,0 - 
+
+rule name FACTOR
+ rule productions 
+production 0-id,0 - 
+production 1-num,0 - 
+production 2-(,0 - EXPRESSION,1 - ),0 - 
+
+Not LL(1) Grammar;
+Left Recursion in:  STATEMENT_LIST
+Left Factor in:  EXPRESSION
+Left Recursion in:  SIMPLE_EXPRESSION
+Left Recursion in:  TERM
+>> METHOD_BODY
+>> STATEMENT_LIST
+>> STATEMENT
+>> DECLARATION
+>> IF
+>> WHILE
+>> ASSIGNMENT
+>> PRIMITIVE_TYPE
+>> EXPRESSION
+>> SIMPLE_EXPRESSION
+>> TERM
+>> SIGN
+>> FACTOR
+>> STATEMENT_LIST'
+>> SIMPLE_EXPRESSION'
+>> TERM'
+>> EXPRESSION'

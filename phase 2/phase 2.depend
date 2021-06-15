@@ -1,0 +1,477 @@
+# depslib dependency file v1.0
+1623168406 source:c:\users\lenovo\desktop\codeblocks_projects\phase 2\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+	"CFG_Parser.h"
+	"Parsing_Table.h"
+	"Generate_LL_Grammar.h"
+	"Matcher.h"
+	"Lexical_Analyzer.h"
+
+1623162807 c:\users\lenovo\desktop\codeblocks_projects\phase 2\include\cfg_parser.h
+	<bits/stdc++.h>
+	"Symbol.h"
+	"Rule.h"
+
+1623156042 c:\users\lenovo\desktop\codeblocks_projects\phase 2\include\symbol.h
+	<bits/stdc++.h>
+	"Rule.h"
+
+1623156021 c:\users\lenovo\desktop\codeblocks_projects\phase 2\include\rule.h
+	<bits/stdc++.h>
+	"Symbol.h"
+	"StringHelp.h"
+	"CFG_Parser.h"
+
+1623154162 c:\users\lenovo\desktop\codeblocks_projects\phase 2\include\stringhelp.h
+	<bits/stdc++.h>
+
+1623154495 c:\users\lenovo\desktop\codeblocks_projects\phase 2\include\parsing_table.h
+	"Rule.h"
+	"Production_Rule.h"
+	<set>
+
+1623154424 c:\users\lenovo\desktop\codeblocks_projects\phase 2\include\production_rule.h
+	"Rule.h"
+
+1623154677 c:\users\lenovo\desktop\codeblocks_projects\phase 2\include\generate_ll_grammar.h
+	<bits/stdc++.h>
+	"Symbol.h"
+	"Rule.h"
+
+1623154593 c:\users\lenovo\desktop\codeblocks_projects\phase 2\include\matcher.h
+	<vector>
+	<unordered_map>
+	<stack>
+	<iostream>
+	<sstream>
+	<iterator>
+
+1623165445 source:c:\users\lenovo\desktop\codeblocks_projects\phase 2\src\cfg_parser.cpp
+	"CFG_Parser.h"
+
+1623167769 source:c:\users\lenovo\desktop\codeblocks_projects\phase 2\src\generate_ll_grammar.cpp
+	"Generate_LL_Grammar.h"
+
+1623154607 source:c:\users\lenovo\desktop\codeblocks_projects\phase 2\src\matcher.cpp
+	"Matcher.h"
+
+1623154531 source:c:\users\lenovo\desktop\codeblocks_projects\phase 2\src\parsing_table.cpp
+	"Parsing_Table.h"
+	<vector>
+
+1623154439 source:c:\users\lenovo\desktop\codeblocks_projects\phase 2\src\production_rule.cpp
+	"Production_Rule.h"
+
+1623154276 source:c:\users\lenovo\desktop\codeblocks_projects\phase 2\src\rule.cpp
+	"Rule.h"
+
+1623154298 source:c:\users\lenovo\desktop\codeblocks_projects\phase 2\src\symbol.cpp
+	"Symbol.h"
+
+1620389960 source:c:\users\lenovo\desktop\codeblocks_projects\phase 2\src\lexical\bfs.cpp
+	"BFS.h"
+
+1620389982 c:\users\lenovo\desktop\codeblocks_projects\phase 2\src\lexical\bfs.h
+	<bits/stdc++.h>
+	"Graph.h"
+
+1620390448 c:\users\lenovo\desktop\codeblocks_projects\phase 2\src\lexical\graph.h
+	<stack>
+	"State.h"
+
+1620390509 c:\users\lenovo\desktop\codeblocks_projects\phase 2\src\lexical\state.h
+	<bits/stdc++.h>
+	"Edge.h"
+
+1620390528 c:\users\lenovo\desktop\codeblocks_projects\phase 2\src\lexical\edge.h
+
+1620389996 source:c:\users\lenovo\desktop\codeblocks_projects\phase 2\src\lexical\dfa_state.cpp
+	"DFA_State.h"
+
+1620390007 c:\users\lenovo\desktop\codeblocks_projects\phase 2\src\lexical\dfa_state.h
+	<bits/stdc++.h>
+
+1623006178 source:c:\users\lenovo\desktop\codeblocks_projects\phase 2\src\lexical\grammerparser.cpp
+	<iostream>
+	<regex>
+	<stack>
+	<math.h>
+	"GrammerParser.h"
+
+1620420851 c:\users\lenovo\desktop\codeblocks_projects\phase 2\src\lexical\grammerparser.h
+	"Graph.h"
+
+1620390487 source:c:\users\lenovo\desktop\codeblocks_projects\phase 2\src\lexical\graph.cpp
+	<bits/stdc++.h>
+	"State.h"
+	"Edge.h"
+	"Graph.h"
+
+1623025389 source:c:\users\lenovo\desktop\codeblocks_projects\phase 2\src\lexical\lexical_analyzer.cpp
+	"Lexical_Analyzer.h"
+	<stdio.h>
+
+1620387969 c:\users\lenovo\desktop\codeblocks_projects\phase 2\src\lexical\lexical_analyzer.h
+	"GrammerParser.h"
+	"NFA_TO_DFA.h"
+	"Minimization.h"
+	"DFA_State.h"
+	"Tokens.h"
+	"State.h"
+	"Edge.h"
+	"Graph.h"
+	"BFS.h"
+	<bits/stdc++.h>
+
+1620390233 c:\users\lenovo\desktop\codeblocks_projects\phase 2\src\lexical\nfa_to_dfa.h
+	"Graph.h"
+	"State.h"
+	"Edge.h"
+	"DFA_State.h"
+	<bits/stdc++.h>
+
+1620390429 c:\users\lenovo\desktop\codeblocks_projects\phase 2\src\lexical\minimization.h
+	"DFA_State.h"
+	<bits/stdc++.h>
+
+1620390379 c:\users\lenovo\desktop\codeblocks_projects\phase 2\src\lexical\tokens.h
+	<string.h>
+	<stack>
+	<fstream>
+	"DFA_State.h"
+
+1623026628 source:c:\users\lenovo\desktop\codeblocks_projects\phase 2\src\lexical\minimization.cpp
+	"Minimization.h"
+
+1623021278 source:c:\users\lenovo\desktop\codeblocks_projects\phase 2\src\lexical\nfa_to_dfa.cpp
+	"NFA_To_DFA.h"
+	"DFA_State.h"
+	"State.h"
+	<queue>
+
+1620390401 source:c:\users\lenovo\desktop\codeblocks_projects\phase 2\src\lexical\tokens.cpp
+	"Tokens.h"
+
+1620389960 source:c:\users\lenovo\desktop\codeblocks_projects\phase 2\lexical\bfs.cpp
+	"BFS.h"
+
+1620389982 c:\users\lenovo\desktop\codeblocks_projects\phase 2\lexical\bfs.h
+	<bits/stdc++.h>
+	"Graph.h"
+
+1620390448 c:\users\lenovo\desktop\codeblocks_projects\phase 2\lexical\graph.h
+	<stack>
+	"State.h"
+
+1620390509 c:\users\lenovo\desktop\codeblocks_projects\phase 2\lexical\state.h
+	<bits/stdc++.h>
+	"Edge.h"
+
+1620390528 c:\users\lenovo\desktop\codeblocks_projects\phase 2\lexical\edge.h
+
+1620389996 source:c:\users\lenovo\desktop\codeblocks_projects\phase 2\lexical\dfa_state.cpp
+	"DFA_State.h"
+
+1620390007 c:\users\lenovo\desktop\codeblocks_projects\phase 2\lexical\dfa_state.h
+	<bits/stdc++.h>
+
+1623006178 source:c:\users\lenovo\desktop\codeblocks_projects\phase 2\lexical\grammerparser.cpp
+	<iostream>
+	<regex>
+	<stack>
+	<math.h>
+	"GrammerParser.h"
+
+1620420851 c:\users\lenovo\desktop\codeblocks_projects\phase 2\lexical\grammerparser.h
+	"Graph.h"
+
+1620390487 source:c:\users\lenovo\desktop\codeblocks_projects\phase 2\lexical\graph.cpp
+	<bits/stdc++.h>
+	"State.h"
+	"Edge.h"
+	"Graph.h"
+
+1623025389 source:c:\users\lenovo\desktop\codeblocks_projects\phase 2\lexical\lexical_analyzer.cpp
+	"Lexical_Analyzer.h"
+	<stdio.h>
+
+1620387969 c:\users\lenovo\desktop\codeblocks_projects\phase 2\lexical\lexical_analyzer.h
+	"GrammerParser.h"
+	"NFA_TO_DFA.h"
+	"Minimization.h"
+	"DFA_State.h"
+	"Tokens.h"
+	"State.h"
+	"Edge.h"
+	"Graph.h"
+	"BFS.h"
+	<bits/stdc++.h>
+
+1620390233 c:\users\lenovo\desktop\codeblocks_projects\phase 2\lexical\nfa_to_dfa.h
+	"Graph.h"
+	"State.h"
+	"Edge.h"
+	"DFA_State.h"
+	<bits/stdc++.h>
+
+1620390429 c:\users\lenovo\desktop\codeblocks_projects\phase 2\lexical\minimization.h
+	"DFA_State.h"
+	<bits/stdc++.h>
+
+1620390379 c:\users\lenovo\desktop\codeblocks_projects\phase 2\lexical\tokens.h
+	<string.h>
+	<stack>
+	<fstream>
+	"DFA_State.h"
+
+1623026628 source:c:\users\lenovo\desktop\codeblocks_projects\phase 2\lexical\minimization.cpp
+	"Minimization.h"
+
+1623021278 source:c:\users\lenovo\desktop\codeblocks_projects\phase 2\lexical\nfa_to_dfa.cpp
+	"NFA_To_DFA.h"
+	"DFA_State.h"
+	"State.h"
+	<queue>
+
+1620390401 source:c:\users\lenovo\desktop\codeblocks_projects\phase 2\lexical\tokens.cpp
+	"Tokens.h"
+
+1620389960 source:c:\users\lenovo\desktop\codeblocks_projects\phase 2\src\bfs.cpp
+	"BFS.h"
+
+1620389982 c:\users\lenovo\desktop\codeblocks_projects\phase 2\include\bfs.h
+	<bits/stdc++.h>
+	"Graph.h"
+
+1620390448 c:\users\lenovo\desktop\codeblocks_projects\phase 2\include\graph.h
+	<stack>
+	"State.h"
+
+1620390509 c:\users\lenovo\desktop\codeblocks_projects\phase 2\include\state.h
+	<bits/stdc++.h>
+	"Edge.h"
+
+1620390528 c:\users\lenovo\desktop\codeblocks_projects\phase 2\include\edge.h
+
+1620389996 source:c:\users\lenovo\desktop\codeblocks_projects\phase 2\src\dfa_state.cpp
+	"DFA_State.h"
+
+1620390007 c:\users\lenovo\desktop\codeblocks_projects\phase 2\include\dfa_state.h
+	<bits/stdc++.h>
+
+1623006178 source:c:\users\lenovo\desktop\codeblocks_projects\phase 2\src\grammerparser.cpp
+	<iostream>
+	<regex>
+	<stack>
+	<math.h>
+	"GrammerParser.h"
+
+1620420851 c:\users\lenovo\desktop\codeblocks_projects\phase 2\include\grammerparser.h
+	"Graph.h"
+
+1620390487 source:c:\users\lenovo\desktop\codeblocks_projects\phase 2\src\graph.cpp
+	<bits/stdc++.h>
+	"State.h"
+	"Edge.h"
+	"Graph.h"
+
+1623025389 source:c:\users\lenovo\desktop\codeblocks_projects\phase 2\src\lexical_analyzer.cpp
+	"Lexical_Analyzer.h"
+	<stdio.h>
+
+1620387969 c:\users\lenovo\desktop\codeblocks_projects\phase 2\include\lexical_analyzer.h
+	"GrammerParser.h"
+	"NFA_TO_DFA.h"
+	"Minimization.h"
+	"DFA_State.h"
+	"Tokens.h"
+	"State.h"
+	"Edge.h"
+	"Graph.h"
+	"BFS.h"
+	<bits/stdc++.h>
+
+1620390233 c:\users\lenovo\desktop\codeblocks_projects\phase 2\include\nfa_to_dfa.h
+	"Graph.h"
+	"State.h"
+	"Edge.h"
+	"DFA_State.h"
+	<bits/stdc++.h>
+
+1620390429 c:\users\lenovo\desktop\codeblocks_projects\phase 2\include\minimization.h
+	"DFA_State.h"
+	<bits/stdc++.h>
+
+1620390379 c:\users\lenovo\desktop\codeblocks_projects\phase 2\include\tokens.h
+	<string.h>
+	<stack>
+	<fstream>
+	"DFA_State.h"
+
+1623026628 source:c:\users\lenovo\desktop\codeblocks_projects\phase 2\src\minimization.cpp
+	"Minimization.h"
+
+1623021278 source:c:\users\lenovo\desktop\codeblocks_projects\phase 2\src\nfa_to_dfa.cpp
+	"NFA_To_DFA.h"
+	"DFA_State.h"
+	"State.h"
+	<queue>
+
+1620390401 source:c:\users\lenovo\desktop\codeblocks_projects\phase 2\src\tokens.cpp
+	"Tokens.h"
+
+1620389960 source:c:\users\lenovo\downloads\phase 2\phase 2\src\bfs.cpp
+	"BFS.h"
+
+1620389982 c:\users\lenovo\downloads\phase 2\phase 2\include\bfs.h
+	<bits/stdc++.h>
+	"Graph.h"
+
+1620390448 c:\users\lenovo\downloads\phase 2\phase 2\include\graph.h
+	<stack>
+	"State.h"
+
+1620390509 c:\users\lenovo\downloads\phase 2\phase 2\include\state.h
+	<bits/stdc++.h>
+	"Edge.h"
+
+1620390528 c:\users\lenovo\downloads\phase 2\phase 2\include\edge.h
+
+1623183525 source:c:\users\lenovo\downloads\phase 2\phase 2\src\cfg_parser.cpp
+	"CFG_Parser.h"
+
+1623162807 c:\users\lenovo\downloads\phase 2\phase 2\include\cfg_parser.h
+	<bits/stdc++.h>
+	"Symbol.h"
+	"Rule.h"
+
+1623156042 c:\users\lenovo\downloads\phase 2\phase 2\include\symbol.h
+	<bits/stdc++.h>
+	"Rule.h"
+
+1623156021 c:\users\lenovo\downloads\phase 2\phase 2\include\rule.h
+	<bits/stdc++.h>
+	"Symbol.h"
+	"StringHelp.h"
+	"CFG_Parser.h"
+
+1623154162 c:\users\lenovo\downloads\phase 2\phase 2\include\stringhelp.h
+	<bits/stdc++.h>
+
+1620389996 source:c:\users\lenovo\downloads\phase 2\phase 2\src\dfa_state.cpp
+	"DFA_State.h"
+
+1620390007 c:\users\lenovo\downloads\phase 2\phase 2\include\dfa_state.h
+	<bits/stdc++.h>
+
+1623167769 source:c:\users\lenovo\downloads\phase 2\phase 2\src\generate_ll_grammar.cpp
+	"Generate_LL_Grammar.h"
+
+1623154677 c:\users\lenovo\downloads\phase 2\phase 2\include\generate_ll_grammar.h
+	<bits/stdc++.h>
+	"Symbol.h"
+	"Rule.h"
+
+1623006178 source:c:\users\lenovo\downloads\phase 2\phase 2\src\grammerparser.cpp
+	<iostream>
+	<regex>
+	<stack>
+	<math.h>
+	"GrammerParser.h"
+
+1620420851 c:\users\lenovo\downloads\phase 2\phase 2\include\grammerparser.h
+	"Graph.h"
+
+1620390487 source:c:\users\lenovo\downloads\phase 2\phase 2\src\graph.cpp
+	<bits/stdc++.h>
+	"State.h"
+	"Edge.h"
+	"Graph.h"
+
+1623025389 source:c:\users\lenovo\downloads\phase 2\phase 2\src\lexical_analyzer.cpp
+	"Lexical_Analyzer.h"
+	<stdio.h>
+
+1620387969 c:\users\lenovo\downloads\phase 2\phase 2\include\lexical_analyzer.h
+	"GrammerParser.h"
+	"NFA_TO_DFA.h"
+	"Minimization.h"
+	"DFA_State.h"
+	"Tokens.h"
+	"State.h"
+	"Edge.h"
+	"Graph.h"
+	"BFS.h"
+	<bits/stdc++.h>
+
+1620390233 c:\users\lenovo\downloads\phase 2\phase 2\include\nfa_to_dfa.h
+	"Graph.h"
+	"State.h"
+	"Edge.h"
+	"DFA_State.h"
+	<bits/stdc++.h>
+
+1620390429 c:\users\lenovo\downloads\phase 2\phase 2\include\minimization.h
+	"DFA_State.h"
+	<bits/stdc++.h>
+
+1620390379 c:\users\lenovo\downloads\phase 2\phase 2\include\tokens.h
+	<string.h>
+	<stack>
+	<fstream>
+	"DFA_State.h"
+
+1623154607 source:c:\users\lenovo\downloads\phase 2\phase 2\src\matcher.cpp
+	"Matcher.h"
+
+1623154593 c:\users\lenovo\downloads\phase 2\phase 2\include\matcher.h
+	<vector>
+	<unordered_map>
+	<stack>
+	<iostream>
+	<sstream>
+	<iterator>
+
+1623026628 source:c:\users\lenovo\downloads\phase 2\phase 2\src\minimization.cpp
+	"Minimization.h"
+
+1623021278 source:c:\users\lenovo\downloads\phase 2\phase 2\src\nfa_to_dfa.cpp
+	"NFA_To_DFA.h"
+	"DFA_State.h"
+	"State.h"
+	<queue>
+
+1623154531 source:c:\users\lenovo\downloads\phase 2\phase 2\src\parsing_table.cpp
+	"Parsing_Table.h"
+	<vector>
+
+1623154495 c:\users\lenovo\downloads\phase 2\phase 2\include\parsing_table.h
+	"Rule.h"
+	"Production_Rule.h"
+	<set>
+
+1623154424 c:\users\lenovo\downloads\phase 2\phase 2\include\production_rule.h
+	"Rule.h"
+
+1623154439 source:c:\users\lenovo\downloads\phase 2\phase 2\src\production_rule.cpp
+	"Production_Rule.h"
+
+1623154276 source:c:\users\lenovo\downloads\phase 2\phase 2\src\rule.cpp
+	"Rule.h"
+
+1623154298 source:c:\users\lenovo\downloads\phase 2\phase 2\src\symbol.cpp
+	"Symbol.h"
+
+1620390401 source:c:\users\lenovo\downloads\phase 2\phase 2\src\tokens.cpp
+	"Tokens.h"
+
+1623183712 source:c:\users\lenovo\downloads\phase 2\phase 2\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+	"CFG_Parser.h"
+	"Parsing_Table.h"
+	"Generate_LL_Grammar.h"
+	"Matcher.h"
+	"Lexical_Analyzer.h"
+
